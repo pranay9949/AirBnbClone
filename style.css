@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.top-section{
+    background-color: black;
+   width: 100%;
+   height:600px;
+   
+    
+}
+.nav-items{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 10px;
+    
+}
+.nav-details{
+    color:#ffffff;
+    font-size: 16px;
+    font-family:sans-serif;
+    display: flex;
+   
+}
+.nav-details p{
+    margin-inline: 20px;
+}
+.nav-menu{
+    color:#ffffff;
+    font-size: 16px;
+    font-family:sans-serif;
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    
+}
+.menu-cont{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 55px;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-menu p{
+    margin-inline: 20px;
+}
+.search-items-container{
+    background-color: #ffffff;
+    width: 60%;
+    height: 60px;
+    border-radius: 70px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:sans-serif;
+    margin-top: 25px;
+   
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.search-icon{
+    background-color: #de3151;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.details{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.info{
+    color: #7d8490;
+    margin-block: 4px;
+}
+.vertical-line{
+    width: 1px;
+    height: 80%;
+    background-color: #ced1d6;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bg-image{
+    height: 350px;
+    width: 75%;
+}
+.heading{
+    font-family:sans-serif;
+    color: rgb(25, 23, 23);
+    margin-top: 45px;
+}
+.middle-section{
+    margin-inline: 70px;
+    
+}
+.bg-color{
+    background-color: #cc2d4a;
+    width: 250px;
+    height: 300px;
+    border-radius:10px ;
+}
+.bg-color1{
+    background-color: #bc1a6e;
+    width: 250px;
+    height: 300px;
+    border-radius:10px ;
+}
+.bg-color2{
+    background-color: #de3151;
+    width: 250px;
+    height: 300px;
+    border-radius:10px ;
+}
+.bg-color3{
+    background-color: #d93b30;
+    width: 250px;
+    height: 300px;
+    border-radius:10px ;
+}
+.card-img{
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    gap: 20px;
+}
+.place-name{
+    font-family:sans-serif ;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+}
+.distance{
+    font-family:sans-serif ;
+    color: #ffffff;
+    
+    padding-left: 15px;
+}
+.experience-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 20px;
+    margin-bottom: 50px;
+}
+.exp-img{
+    width: 90%;
+    height: 400px;
+}
+.gift-cont{
+    display:grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+}
+.gift-heading>p{
+    font-family: sans-serif;
+    font-size:xx-large;
+    font-weight:600;
+    margin-block: 20px;
+}
+.gift-heading>button{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.gift-img{
+ width: 600px;
+}
+.bottom-img{
+    width: 80%;
+    height: 400px;
+   
+}
+.full-img{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+}
+.bottom-section{
+    display: flex;
+    font-family: sans-serif;
+    font-size: small;
+   justify-content:space-between;
+    margin-top:15px ;
+}
+.bold-item{
+    font-weight: bold;
+}
+.normal-item{
+    color:#7d8490;
+}
+.underline{
+    margin-block: 10px;
+    width: 100%;
+    height: 2px;
+  background-color: #7d8490;
+}
+.selected-item{
+    height: 2px;
+    width: 17%;
+  background-color:black;
+}
+table{
+    width: 100%;
+   
+    margin-block: 25px;
+}
+td,th{
+    width: 25%;
+    text-align: start;
+   
+    font-family: sans-serif;
+    padding: 5px;
+}
+td{
+    color: #3a3b3c;
+    font-size: 14px;
+}
+.last-item{
+    display: flex;
+    justify-content: space-between;
+    color:#3a3b3c;
+    
+}
+.social-item{
+    display: flex;
+   
+}
